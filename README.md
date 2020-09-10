@@ -23,10 +23,10 @@ Sencha WebTestIt is a lightweight IDE optimized for building UI web tests with S
 
 ## Other samples
 
-* [Java Demoshop](https://github.com/rxse/java-demoshop)
-* [TypeScript Demoshop](https://github.com/rxse/ts-demoshop)
-* [Python Demoshop](https://github.com/rxse/python-demoshop)
-* [Python Data-driven Sample](https://github.com/rxse/python-data-driven-sample.git)
+* [Java Demoshop](https://github.com/extjs/RxSe-java-demoshop)
+* [TypeScript Demoshop](https://github.com/extjs/RxSe-ts-demoshop)
+* [Python Demoshop](https://github.com/extjs/RxSe-python-demoshop)
+* [Python Data-driven Sample](https://github.com/extjs/RxSe-python-data-driven-sample)
 
 ## License
 
