@@ -1,4 +1,4 @@
-// Ranorex Webtestit Page Object File
+// Sencha WebTestIt Page Object File
 
 package uitest.pageobjects;
 

@@ -82,11 +82,10 @@ public class SuiteConfiguration {
                 break;
             }
         } else {
-            if (hasProperty("debug") && Boolean.valueOf(getProperty("debug")) && browserName.equals("chrome")
-                    && hasProperty("selocityPath") && getProperty("selocityPath").length() > 0) {
-                String selocityPath = getProperty("selocityPath");
+            if (hasProperty("debug") && Boolean.valueOf(getProperty("debug")) && browserName.equals("chrome")) {
+                // String selocityPath = getProperty("selocityPath");
                 final ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--load-extension=" + selocityPath);
+                // chromeOptions.addArguments("--load-extension=" + selocityPath);
                 chromeOptions.addArguments("--auto-open-devtools-for-tabs");
                 Map<String, Object> prefs = new HashMap<String, Object>();
                 prefs.put("devtools.preferences.currentDockState", "\"undocked\"");
